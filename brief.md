@@ -29,5 +29,6 @@ Anonymization removes identifying information so that a person is no longer iden
 
 Resource: General Data Protection Regulation (GDPR), Recital 26 and Article 4(5) - https://eur-lex.europa.eu/eli/reg/2016/679/oj
 ## Misconception in My Track
-
+A common misconception is that adding Retrieval-Augmented Generation (RAG) automatically prevents a language model from producing unsafe or manipulated answers. RAG can help the model use relevant external information, but retrieved documents may themselves contain malicious instructions. OWASP explains that RAG and fine-tuning do not fully mitigate prompt injection vulnerabilities. Retrieval must therefore be combined with security controls and testing, especially when a government assistant uses external documents to answer citizens’ questions.
 ## Open Question
+How can we evaluate whether a RAG-based government assistant consistently answers from current, approved service documents and safely handles malicious instructions embedded in retrieved content?
