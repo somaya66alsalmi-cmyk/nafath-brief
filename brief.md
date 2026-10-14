@@ -16,12 +16,18 @@ Apple’s App Transport Security (ATS) requires connections made through the URL
 
 Resource: NSAppTransportSecurity - https://developer.apple.com/documentation/BundleResources/Information-Property-List/NSAppTransportSecurity
 ## Networking
+IPv4 uses 32-bit addresses, whereas IPv6 uses 128-bit addresses, providing a vastly larger address space. IPv6 supports the growing number of addressable devices and offers updated mechanisms for addressing and network configuration. For a government service used by many phones and connected devices, IPv6 support can help accommodate long-term growth. However, deploying IPv6 does not automatically solve every connectivity or security problem; networks and services must be configured and tested appropriately.
 
+Resource: RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200
 ## Cybersecurity
+Prompt injection occurs when crafted input manipulates a language model into behaving in unintended ways. Direct injection comes from instructions supplied by a user; indirect injection may be embedded in content the model retrieves or reads, such as a webpage or document. Risk can be reduced by treating retrieved content as untrusted and separating it from trusted instructions, and by limiting the model’s permissions to the minimum required. No single control eliminates the risk.
 
+Resource: OWASP Top 10 for LLM Applications - Prompt Injection - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 
 ## Data
+Anonymization removes identifying information so that a person is no longer identifiable by means reasonably likely to be used. Pseudonymization replaces direct identifiers with codes or other values, but additional information may still allow re-identification. Under the GDPR, genuinely anonymous information falls outside the regulation’s scope, whereas pseudonymized personal data remains personal data. Government chat logs should therefore be assessed carefully before being treated as anonymous, especially when other datasets could enable linkage.
 
+Resource: General Data Protection Regulation (GDPR), Recital 26 and Article 4(5) - https://eur-lex.europa.eu/eli/reg/2016/679/oj
 ## Misconception in My Track
 
 ## Open Question
