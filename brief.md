@@ -1,4 +1,4 @@
-Version: NAFATH-V3
+skeleton: NAFATH-V3
 Track: AI
 
 ## Overview
